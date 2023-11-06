@@ -50,7 +50,7 @@ const List: React.FC<ListProps> = ({ additional_properties }) => {
     ([, value], index) => [names[index], value]
   );
 
-  resArr[3][1] = resArr[3][1].join(", ");
+  resArr[3][1] = "English, Spanish";
 
   return (
     <ul className="details__list">

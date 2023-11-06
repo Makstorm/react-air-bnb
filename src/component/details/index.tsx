@@ -7,6 +7,7 @@ import Heading from "../heading";
 import icon_1 from "./icon_1.svg";
 import icon_2 from "./icon_2.svg";
 import icon_3 from "./icon_3.svg";
+import icon_4 from "./icon_4.svg";
 
 interface Props {
   guests: number;
@@ -50,7 +51,7 @@ const List: React.FC<ListProps> = ({ guests, bedrooms, beds, baths }) => {
         <span>{beds > 1 ? "Ліжка" : "Ліжко"}</span>
       </ListItem>
 
-      <ListItem>
+      <ListItem imageSrc={icon_4}>
         <span>{baths}</span>
         <span>{baths > 1 ? "Ванні кімнати" : "Ванна кімната"}</span>
       </ListItem>
