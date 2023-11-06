@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.details__list {
+  display: grid;
+  gap: 24px;
+}
+
+.details__item {
+  color: #000;
+}
